@@ -13,7 +13,7 @@ load_dotenv()
 groq_key = os.getenv("GROQ_API_KEY")
 
 # Path to your PDF document
-PDF_PATH = os.getenv("PDF_PATH", "data/document.pdf")
+PDF_PATH = os.getenv("PDF_PATH", "Your PDF Path")
 
 vector_db = Qdrant(
     collection="pdf-assistant-search",
