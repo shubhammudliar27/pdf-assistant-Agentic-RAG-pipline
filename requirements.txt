@@ -1,0 +1,7 @@
+agno
+groq
+qdrant-client
+sentence-transformers
+typer[all]
+rich
+python-dotenv
